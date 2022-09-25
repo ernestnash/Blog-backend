@@ -26,7 +26,7 @@ const sidebar = document.querySelector('aside');
 const showSidebarBtn = document.querySelector('#show-sidebar-btn');
 const hideSidebarBtn = document.querySelector('#hide-sidebar-btn');
 
-//show sidebar on samll devices
+//show sidebar on small devices
 const showSidebar = () => {
     sidebar.style.left = '0';
     showSidebarBtn.style.display = 'none';

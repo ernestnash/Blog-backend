@@ -1,4 +1,5 @@
 <?php
+
 require 'Config/database.php';
 
 //fetch current user from databse
@@ -20,13 +21,13 @@ if(isset($_SESSION['user-id'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Multipage Blog website</title>
+    <title>Daniocliff.co.ke</title>
 
     <!-- Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= ROOT_URL?>Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= ROOT_URL?>Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= ROOT_URL?>Favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?= ROOT_URL?>Favicon/site.webmanifest">
 
     <!-- fontawesome -->
     

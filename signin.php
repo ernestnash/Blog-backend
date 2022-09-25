@@ -1,6 +1,6 @@
 <?php
 
-require 'config/constants.php';
+require 'Config/constants.php';
 
 $username_email = $_SESSION['sigin-data']['username_email'] ?? null;
 $password = $_SESSION['sigin-data']['password'] ?? null;
